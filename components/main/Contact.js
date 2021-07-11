@@ -21,11 +21,12 @@ const Contact = () => {
         start: "top center",
         toggleActions: "restart pause reverse pause",
       },
-      yPercent: -100,
+      yPercent: -160,
       scale: 0.5,
       opacity: 0,
       ease: "power4.out",
-      duration: 0.8,
+      delay: 0.2,
+      duration: 1,
     });
   }, []);
   const sendEmail = async (enteredValue) => {

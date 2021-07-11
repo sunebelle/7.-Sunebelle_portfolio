@@ -22,7 +22,7 @@ const About = () => {
       },
       ease: "power4.out",
       x: 400,
-      // y: 200,
+      y: 200,
       scale: 2,
       opacity: 0,
       duration: 0.6,
@@ -30,48 +30,51 @@ const About = () => {
     gsap.from(first, {
       scrollTrigger: {
         trigger: textRef,
-        start: "top top",
+        start: "top bottom",
         // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
       opacity: 0,
-      x: 100,
-      duration: 1,
+      xPercent: 100,
+      duration: 0.8,
     });
     gsap.from(second, {
       scrollTrigger: {
         trigger: first,
-        start: "top center",
+        start: "top bottom",
         // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
       opacity: 0,
-      x: 100,
-      duration: 1,
+      xPercent: -100,
+      duration: 0.8,
+      // delay: 0.2,
     });
     gsap.from(third, {
       scrollTrigger: {
         trigger: second,
-        start: "top center",
+        start: "top bottom",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
       opacity: 0,
       xPercent: 100,
       duration: 1,
+      // delay: 0.2,
     });
     gsap.from(four, {
       scrollTrigger: {
         trigger: third,
-        start: "top center",
+        start: "top bottom",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
       opacity: 0,
       xPercent: -100,
       duration: 1,
+      // delay: 0.2,
     });
   }, []);
   return (
