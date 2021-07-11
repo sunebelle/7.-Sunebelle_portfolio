@@ -1,0 +1,131 @@
+.carousel__home {
+  /* max-height: 800px; */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel_main {
+  padding: 0 3%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_styles {
+  height: 40%;
+  width: 40%;
+}
+
+.img_styles > img {
+  border-radius: 20%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+  color: black !important;
+  width: 3% !important;
+  max-height: 250px;
+}
+.carousel-indicators {
+  position: relative !important;
+  width: 100%;
+  height: 200px;
+}
+/*   
+  @media (min-width: 900px) {
+    .carousel__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 900px) {
+    .carousel__img {
+      height: 400px;
+      width: 100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .carousel__img {
+      height: 250px;
+      width: 100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+      height: 100px;
+    }
+  } 
+  */
+
+  @keyframes apperance {
+    from {
+      opacity: 0;
+      animation-delay: 3s;
+      transform: translateY(3rem);
+    }
+    to {
+      opacity: 1;
+      animation-delay: 3s;
+      transform: translateY(0);
+    }
+  }
+  
+  .project_main div:nth-child(1) {
+    animation: left_right 2s ease-in-out forwards;
+    /* animation-delay: 5s; */
+  }
+  .project_main div:nth-child(2) {
+    animation: right_left 2s ease-in-out forwards;
+    /* animation-delay: 6s; */
+  }
+  .project_main div:nth-child(3) {
+    animation: left_right 2s ease-in-out forwards;
+    /* animation-delay: 7s; */
+  }
+  .project_main div:nth-child(4) {
+    animation: right_left 2s ease-in-out forwards;
+    /* animation-delay: 8s; */
+  }
+  
+  @keyframes left_right {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes right_left {
+    from {
+      opacity: 0;
+      transform: translateX(400px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+/* <form>
+  <label htmlFor="text"> your name</label>
+  <input type="text" placeholder="your name"/>
+  <label htmlFor="email"> your email</label>
+  <input type="email" />
+  <label> Pick your date</label>
+
+
+  <textarea type="text" rows="3" />
+  <button> Send</button>
+</form> */

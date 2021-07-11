@@ -1,0 +1,9 @@
+.project_main {
+  padding: 3%;
+  /* background-color: #2575fc; */
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+

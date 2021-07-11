@@ -4,13 +4,138 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+ul {
+  list-style: none;
+}
 * {
   box-sizing: border-box;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+::-moz-selection {
+  background-color: #55c57a;
+  color: #fff;
+}
+::selection {
+  background-color: #55c57a;
+  color: #fff;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* LoveQuote */
+.cloud {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img__cloud {
+  width: 6%;
+  height: 6%;
+}
+
+/* sarcasm  */
+.sarcasm {
+  padding: 5% 5% 0;
+  color: #fff;
+  margin-top: -20px;
+}
+.strength {
+  display: grid;
+  padding: 40px;
+  grid-template-columns: auto auto auto;
+  grid-gap: inherit;
+}
+
+.sarcasm img {
+  width: 80%;
+  height: inherit;
+}
+
+/* courses */
+
+.main_courses {
+  padding: 10% 5%;
+  clip-path: polygon(100% 0, 0 10%, 0% 100%, 100% 90%);
+  min-height: 100vh;
+  background-color: rgb(228, 228, 209);
+  /* background-color: #ffa900; */
+  text-align: center;
+  /* background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 80% 50%; */
+}
+.main_courses p {
+  padding-top: 20px;
+}
+.courses {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #eaeaea;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: skewY(170deg);
+  box-shadow: 5px 10px 8px 5px #888888;
+}
+.courses img {
+  width: 80%;
+  height: 250px;
+  padding: 20px 0;
+}
+
+/* ProjectShowcase */
+.project_main {
+  padding: 3%;
+  /* background-color: #2575fc; */
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+/* Contact */
+.contact {
+  height: 140vh;
+  background-color: rgb(228, 228, 209);
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  width: 100%;
 }

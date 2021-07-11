@@ -1,0 +1,82 @@
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 3%;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 50%);
+}
+.heart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.footer_animation img {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+}
+.heart img {
+  width: 50px;
+  animation: heart 3s linear infinite;
+}
+.sunebelle {
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  margin: 0 auto;
+}
+@keyframes heart {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-90vh);
+    opacity: 0;
+  }
+}
+.heart img:nth-child(1) {
+  animation-delay: 0.5s;
+  width: 20px;
+}
+.heart img:nth-child(2) {
+  animation-delay: 1s;
+}
+.heart img:nth-child(3) {
+  animation-delay: 0.75s;
+  width: 35px;
+}
+.heart img:nth-child(4) {
+  animation-delay: 1.5;
+  width: 25px;
+}
+.heart img:nth-child(5) {
+  animation-delay: 2s;
+  width: 40px;
+}
+.heart img:nth-child(6) {
+  animation-delay: 1.5s;
+}
+.heart img:nth-child(7) {
+  animation-delay: 2.5s;
+  width: 45px;
+}
+.heart img:nth-child(8) {
+  animation-delay: 1.5s;
+  width: 20px;
+}
