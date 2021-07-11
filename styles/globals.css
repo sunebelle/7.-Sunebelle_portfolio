@@ -58,6 +58,36 @@ section {
 }
 
 /* LoveQuote */
+
+.lovequotes {
+  min-height: 100vh;
+  padding: 10% 5% 0;
+  width: 100%;
+  display: grid;
+  z-index: -1;
+  margin-top: -5%;
+  background-color: #ecefa4;
+  /* background-color: rgb(228, 228, 209); */
+  /* background-image: url("../../public/2.jpg");
+  object-fit: cover;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-position: 20% 25% 80%; */
+}
+.quoteFirst img {
+  width: 30%;
+  height: 50%;
+  float: right;
+}
+.quoteSecond {
+  padding-bottom: 15px;
+}
+.quoteSecond img {
+  width: 50%;
+  height: 50%;
+  float: right;
+}
 .cloud {
   padding-bottom: 40px;
   display: flex;
@@ -68,6 +98,47 @@ section {
 .img__cloud {
   width: 6%;
   height: 6%;
+}
+
+/* About */
+.about_intro {
+  /* min-height: 100vh; */
+  color: #fff;
+  padding: 0 5%;
+  margin: 0;
+
+  min-height: fit-content;
+  /* background-color: #2575fc; */
+  /* background-color: #6a11cb; */
+  background-image: url("https://1.bp.blogspot.com/-hNDcw75TpFk/UArwrJs9-RI/AAAAAAAAILE/5nLdt3TxUY4/s1600/Hdhut.blogspot.com+(2).jpeg");
+}
+.about_intro h2 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+.animate_intro {
+  min-height: 100vh;
+}
+.main_intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: 20px auto;
+  align-items: center;
+}
+.main_intro img {
+  width: 100%;
+  height: 400px;
+}
+/* .main_intro:nth-child(even) img {
+  order: 1;
+} */
+/* float: left; */
+
+@media (max-width: 600px) {
+  .main_intro {
+    display: block;
+  }
 }
 
 /* sarcasm  */

@@ -13,35 +13,25 @@ const About = () => {
   let four = useRef(null);
 
   useEffect(() => {
-    // gsap.from(divRef, {
-    //   scrollTrigger: {
-    //     trigger: divRef,
-    //     start: "top top",
-    //     toggleActions: "restart pause reverse pause",
-    //   },
-    //   ease: "back",
-    //   // scale: 0.6,
-    //   duration: 1,
-    //   opacity: 0,
-    // });
     gsap.from(textRef, {
       scrollTrigger: {
         trigger: divRef,
-        start: "top center",
+        start: "top top",
+        end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
-      // xPercent: 100,
       x: 400,
-      y: 200,
-      scale: 3,
+      // y: 200,
+      scale: 2,
       opacity: 0,
-      duration: 1,
+      duration: 0.6,
     });
     gsap.from(first, {
       scrollTrigger: {
-        trigger: first,
+        trigger: textRef,
         start: "top top",
+        // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
@@ -51,8 +41,9 @@ const About = () => {
     });
     gsap.from(second, {
       scrollTrigger: {
-        trigger: second,
+        trigger: first,
         start: "top center",
+        // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
@@ -62,29 +53,29 @@ const About = () => {
     });
     gsap.from(third, {
       scrollTrigger: {
+        trigger: second,
+        start: "top center",
+        toggleActions: "restart pause reverse pause",
+      },
+      ease: "power4.out",
+      opacity: 0,
+      xPercent: 100,
+      duration: 1,
+    });
+    gsap.from(four, {
+      scrollTrigger: {
         trigger: third,
         start: "top center",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
       opacity: 0,
-      x: -100,
-      duration: 1,
-    });
-    gsap.from(four, {
-      scrollTrigger: {
-        trigger: four,
-        start: "top center",
-        toggleActions: "restart pause reverse pause",
-      },
-      ease: "power4.out",
-      opacity: 0,
-      x: 100,
+      xPercent: -100,
       duration: 1,
     });
   }, []);
   return (
-    <div className={classes.about_intro} ref={(el) => (divRef = el)}>
+    <div className={classes.about_intro} id="about" ref={(el) => (divRef = el)}>
       <h2 ref={(el) => (textRef = el)}>Sunebelle</h2>
       <div className={classes.animate_intro}>
         <div className={classes.main_intro} ref={(el) => (first = el)}>

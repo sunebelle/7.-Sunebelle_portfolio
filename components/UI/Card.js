@@ -5,12 +5,15 @@ import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faKissWinkHeart } from "@fortawesome/free-solid-svg-icons";
 import { faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 
-
 const Card = ({ item }) => {
-  const { title, img, description, tags } = item;
+  const { title, img, description, tags, link } = item;
   return (
     <div className={classes.card}>
-      <h3> {title}</h3>
+      <h3>
+        <a href={link} target="_blank">
+          {title}
+        </a>
+      </h3>
       <div className={classes.card_img}>
         <img src={img} />
       </div>

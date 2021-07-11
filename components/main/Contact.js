@@ -58,7 +58,7 @@ const Contact = () => {
     });
   };
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className={classes.contact_form}>
         <form onSubmit={handleContact}>
           <input
@@ -98,7 +98,11 @@ const Contact = () => {
             <button className={classes.btn} type="submit">
               Send
             </button>
-            <span>Or email me at: nguyenbinh2896@gmail.com</span>
+            <span>
+              <a href="mailto:sunebellee@gmail.com">
+                Or email me at: sunebellee@gmail.com
+              </a>
+            </span>
           </div>
         </form>
       </div>

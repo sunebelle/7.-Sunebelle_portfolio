@@ -61,22 +61,37 @@ const Courses = () => {
         <div className="courses">
           <img src="./web_bootcamp.png" />
           <p>
-            Become a full-stack web developer with just one course. HTML,CSS,
-            Javascript, Node, React, MongoDB and more!
+            <a
+              href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+              target="_blank"
+            >
+              Become a full-stack web developer with just one course. HTML,CSS,
+              Javascript, Node, React, MongoDB and more!
+            </a>
           </p>
         </div>
         <div className="courses">
           <img src="./react.png" />
           <p>
-            Dive in and learn React.js from scratch! Learn Reactjs, Hooks,
-            Redux, React Routing, Animations, Next.js and way more!
+            <a
+              href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+              target="_blank"
+            >
+              Dive in and learn React.js from scratch! Learn Reactjs, Hooks,
+              Redux, React Routing, Animations, Next.js and way more!
+            </a>
           </p>
         </div>
         <div className="courses">
           <img src="./node.png" />
           <p>
-            Master Node by building a real-world RESTful API and web app (with
-            authentication, Node.js security, payments & more)
+            <a
+              href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+              target="_blank"
+            >
+              Master Node by building a real-world RESTful API and web app (with
+              authentication, Node.js security, payments & more)
+            </a>
           </p>
         </div>
       </div>

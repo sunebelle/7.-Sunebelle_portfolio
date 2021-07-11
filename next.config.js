@@ -1,3 +1,8 @@
+// const withPlugins = require("next-compose-plugins");
+// const optimizedImages = require("next-optimized-images");
+
+// module.exports = withPlugins([optimizedImages], { target: "serverless" });
+
 // module.exports = {
 //   serverRuntimeConfig: {
 //     // Will only be available on the server side
@@ -10,10 +15,8 @@
 //   },
 // };
 
-
 // const withTM = require("next-transpile-modules")(["gsap"]);
 // module.exports = withTM({});
-
 
 // const withTM = require("next-transpile-modules")([
 //   "ScrollTrigger",

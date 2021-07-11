@@ -115,7 +115,7 @@ const Sarcasm = () => {
         <div className="strength">
           <img className="item2" src="./ticket.png" alt="lottery_ticket" />
           <img className="item2" src="./emoji_no.png" alt="emoji_no" />
-          <img className="item2" src="./No.png" alt="no" />
+          <img className="item2" src="./no.png" alt="no" />
         </div>
       </div>
     </div>
