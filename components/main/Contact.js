@@ -21,7 +21,6 @@ const Contact = () => {
         start: "top center",
         toggleActions: "restart pause reverse pause",
       },
-      // yPercent: -160,
       y: -160,
       scale: 0.5,
       opacity: 0,
@@ -50,7 +49,6 @@ const Contact = () => {
   };
   const handleContact = (e) => {
     e.preventDefault();
-    // console.log(contact);
     sendEmail(contact);
     setContact({
       name: "",
@@ -82,7 +80,6 @@ const Contact = () => {
           <input
             type="date"
             name="date"
-            // defaultValue="2021-06-30"
             required
             value={contact.date}
             onChange={handleChange}
@@ -113,4 +110,3 @@ const Contact = () => {
 };
 
 export default Contact;
-//onfocus="(this.type='date')"

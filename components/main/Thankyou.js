@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import classes from "./Thankyou.module.css";
 
 const Thankyou = ({ message }) => {
@@ -20,7 +19,11 @@ const Thankyou = ({ message }) => {
           <img src="./heart.png" alt="heart" />
           <img src="./heart.png" alt="heart" />
         </div>
-        <img className={classes.lovely_img} src="./lovely.png" alt="emoji_lovelyface" />
+        <img
+          className={classes.lovely_img}
+          src="./lovely.png"
+          alt="emoji_lovelyface"
+        />
       </div>
       <div className={classes.sunebelle}>
         This project is created with Nextjs, by Sunebelle@2021.

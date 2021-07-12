@@ -1,4 +1,3 @@
-// import classes from "./ProjectShowcase.module.css";
 import Card from "../UI/Card";
 import projects from "./data";
 import React, { useEffect } from "react";

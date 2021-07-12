@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
@@ -5,7 +8,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x: hidden;
-  /* overflow: hidden; */
 }
 
 a {
@@ -14,9 +16,6 @@ a {
 }
 ul {
   list-style: none;
-}
-* {
-  box-sizing: border-box;
 }
 h1 {
   font-size: 3rem;
@@ -75,8 +74,12 @@ section {
   }
 }
 
-/* LoveQuote */
+/* Main home */
+.main_home {
+  width: 100%;
+}
 
+/* LoveQuote */
 .lovequotes {
   min-height: 100vh;
   padding: 10% 5% 0;
@@ -85,13 +88,6 @@ section {
   z-index: -1;
   margin-top: -5%;
   background-color: #ecefa4;
-  /* background-color: rgb(228, 228, 209); */
-  /* background-image: url("../../public/2.jpg");
-  object-fit: cover;
-  color: #fff;
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-position: 20% 25% 80%; */
 }
 .quoteFirst img {
   width: 30%;
@@ -115,7 +111,6 @@ section {
 }
 .img__cloud {
   width: 6%;
-  /* height: 6%; */
 }
 
 @media screen and (max-width: 1000px), screen and (min-width: 800px) {
@@ -183,7 +178,6 @@ section {
 }
 
 /* courses */
-
 .main_courses {
   padding: 10% 5%;
   clip-path: polygon(100% 0, 0 10%, 0% 100%, 100% 90%);
@@ -200,7 +194,7 @@ section {
   grid-gap: 40px;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
+  padding: 3rem;
 }
 .courses {
   padding: 2rem;
@@ -225,12 +219,10 @@ section {
     padding: 3rem 0;
     grid-gap: 35px;
   }
-}
-/* @media screen and (max-width: 1000px), screen and (min-width: 800px) {
-  .about_courses {
-    padding: 3rem 0;
+  .courses {
+    padding: 1rem;
   }
-} */
+}
 
 @media screen and (max-width: 799px) {
   .about_courses {
@@ -274,7 +266,6 @@ section {
 /* ProjectShowcase */
 .project_main {
   padding: 3%;
-  /* align-items: center; */
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 30px;

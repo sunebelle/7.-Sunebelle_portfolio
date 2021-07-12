@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./TopHome.module.css";
-// import Image from "next/image";
 
 const TopHome = () => {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Main.module.css";
 import TopHome from "../main/TopHome";
 import ProjectShowcase from "../main/ProjectShowcase";
 import About from "../main/About";
@@ -11,7 +10,7 @@ import Thankyou from "../main/Thankyou";
 
 const Main = () => {
   return (
-    <div className={classes.main_home}>
+    <div className="main_home">
       <TopHome />
       <LoveQuote />
       <About />

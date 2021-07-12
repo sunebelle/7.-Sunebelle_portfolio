@@ -1,22 +1,14 @@
 .about_intro {
-  /* min-height: 100vh; */
-  /* color: #fff; */
+  color: #fff;
   padding: 0 5%;
   margin: 0;
-
   min-height: fit-content;
-  /* background-color: #2575fc; */
-  /* background-color: #6a11cb; */
   background-image: url("https://1.bp.blogspot.com/-hNDcw75TpFk/UArwrJs9-RI/AAAAAAAAILE/5nLdt3TxUY4/s1600/Hdhut.blogspot.com+(2).jpeg");
 }
 .about_intro h2 {
   margin-top: 0;
-  color: #fff;
   padding-top: 20px;
   text-shadow: -6px -4px 36px rgba(0, 0, 0, 0.815);
-}
-.about_intro h3 {
-  color: #fff;
 }
 .animate_intro {
   min-height: 100vh;
@@ -30,7 +22,6 @@
 }
 .main_intro img {
   width: 100%;
-  /* height: 400px; */
   height: 100%;
 }
 .main_intro:nth-child(odd) img {

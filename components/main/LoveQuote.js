@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import classes from "./LoveQuote.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -36,7 +36,6 @@ const LoveQuote = () => {
       scrollTrigger: {
         trigger: ".img__cloud",
         start: "top center",
-        // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
       ease: "back",

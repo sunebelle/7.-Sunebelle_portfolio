@@ -62,12 +62,10 @@
 @keyframes left_right {
   from {
     opacity: 0;
-    /* transform: translateX(-100px); */
     transform: rotateX(90deg);
   }
   to {
     opacity: 1;
-    /* transform: translateX(0); */
     transform: scaleX(1);
   }
 }
@@ -96,20 +94,9 @@
   .grid_container {
     display: grid;
     grid-template-columns: auto;
-    /* align-items: center;
-    justify-content: center; */
   }
 }
-/* @media screen and (max-width: 570px) {
-  .item1 h2 {
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-  .highlighted {
-    font-size: 2rem;
-    font-weight: 700;
-  }
-} */
+
 @media screen and (max-width: 570px) {
   .highlighted {
     font-size: 1.5rem;
