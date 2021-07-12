@@ -31,7 +31,6 @@
 .sunebelle {
   position: absolute;
   bottom: 5%;
-  text-align: center;
   margin: 0 auto;
 }
 @keyframes heart {
@@ -85,5 +84,14 @@
   .lovely_img {
     width: 50%;
     height: 50%;
+  }
+  .footer {
+    display: block;
+  }
+  .thanks {
+    padding-top: 45%;
+  }
+  .sunebelle {
+    padding: 0 auto;
   }
 }

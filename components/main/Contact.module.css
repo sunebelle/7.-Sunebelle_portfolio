@@ -108,12 +108,34 @@
     min-height: 40%;
   }
 }
-@media screen and (max-width: 799px) {
-}
 
 @media screen and (max-width: 650px) {
+  .contact_form form {
+    width: 80%;
+    min-height: 40%;
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 380px) {
+  .contact {
+    max-height: 80vh;
+  }
+  .contact_form form::before {
+    display: none;
+  }
+  .contact_form form::after {
+    display: none;
+  }
+  .contact_form form {
+    width: 90%;
+    min-height: 40%;
+  }
 }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 300px) {
+  .contact_form form {
+    width: 90%;
+  }
+  .btn_send {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -116,3 +116,8 @@
     font-weight: 600;
   }
 }
+@media screen and (max-width: 350px) {
+  .grid_container {
+    max-height: 90vh;
+  }
+}

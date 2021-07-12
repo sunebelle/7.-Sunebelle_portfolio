@@ -22,9 +22,9 @@ const Thankyou = ({ message }) => {
         </div>
         <img className={classes.lovely_img} src="./lovely.png" alt="emoji_lovelyface" />
       </div>
-      <h6 className={classes.sunebelle}>
-        This project is created with Nextjs, by Sunebelle@2021.{" "}
-      </h6>
+      <div className={classes.sunebelle}>
+        This project is created with Nextjs, by Sunebelle@2021.
+      </div>
     </div>
   );
 };
