@@ -63,7 +63,7 @@
 .description {
   /* display: none; */
   display: block;
-  min-height: 80px;
+  min-height: 90px;
   max-width: 100%;
 }
 .card:hover .description {

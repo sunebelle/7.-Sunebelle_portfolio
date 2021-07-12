@@ -98,3 +98,22 @@
 .btn:hover {
   background-color: #03256c;
 }
+
+@media screen and (max-width: 1000px), screen and (min-width: 800px) {
+  .contact_form form::before {
+    top: -20%;
+  }
+  .contact_form form {
+    width: 70%;
+    min-height: 40%;
+  }
+}
+@media screen and (max-width: 799px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+@media screen and (max-width: 450px) {
+}
+@media screen and (max-width: 250px) {
+}

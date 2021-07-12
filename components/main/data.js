@@ -1,11 +1,11 @@
 const projectData = [
   {
     id: "1",
-    title: "Fake Amazon Clone",
+    title: "Amazon Clone",
     tags: ["react", "firebase", "heroku"],
     img: "./amazon.gif",
     link: "https://react21-9446b.web.app/",
-    description: `This is an Amazon fake webpage making with create-react-app.Front-end (client - build with reactjs): using Firebase hosting & cloud firestore service. Back-end (server): Heroku. \n Github:https://github.com/sunebelle/4.-Amazon-react-app. \n P/s: for the purpose of studying, comments are used more often than usual.`,
+    description: `This is an Amazon fake webpage. Front-end: reactjs, Firebase hosting, cloud firestore. Back-end: Heroku. \n Github: https://github.com/sunebelle/4.-Amazon-react-app. \n P/s: for the purpose of studying, comments are used more often than usual.`,
   },
   {
     id: "2",
@@ -21,7 +21,7 @@ const projectData = [
     tags: ["react", "firebase", "netlify"],
     img: "./foodApp.gif",
     link: "https://react-food-order-app.netlify.app/",
-    description: `This is a project from React-Hooks course, with a slightly somewhat difference. Create-React-App + Firebase Realtime Database + Netlify. \n Github: https://github.com/sunebelle/1.-food-order-app.\n  P/s: for the purpose of studying, comments are used more often than usual.`,
+    description: `This is a project from React-Hooks course, with a slightly somewhat difference. Reactjs + Firebase Realtime Database + Netlify. \n Github: https://github.com/sunebelle/1.-food-order-app.\n  P/s: for the purpose of studying, comments are used more often than usual.`,
   },
   {
     id: "4",
@@ -29,7 +29,7 @@ const projectData = [
     tags: ["mongoDB", "express", "react", "node", "heroku", "netlify"],
     img: "./mernMemories.gif",
     link: "#",
-    description: `<currently working on>.This is a project inspired from JavaScript Mastery. Youtube link: https://www.youtube.com/watch?v=aibtHnbeuio. Changes: replacing Redux with React Hooks. \n My github: https://github.com/sunebelle/2.-mern-memories. \n P/s: for the purpose of studying, comments are used more often than usual.`,
+    description: `<Currently working on>.This is a project inspired from JavaScript Mastery. Youtube link: https://www.youtube.com/watch?v=aibtHnbeuio. Changes: replacing Redux with React Hooks. \n P/s: for the purpose of studying, comments are used more often than usual.`,
   },
 ];
 

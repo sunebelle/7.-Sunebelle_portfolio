@@ -80,3 +80,10 @@
   animation-delay: 1.5s;
   width: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .lovely_img {
+    width: 50%;
+    height: 50%;
+  }
+}

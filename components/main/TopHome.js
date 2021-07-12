@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./TopHome.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 
 const TopHome = () => {
   return (
@@ -13,7 +13,6 @@ const TopHome = () => {
         </h2>
       </div>
       <div className={classes.item2}>
-        {/* <Image src="/top_home.jpg" alt="success_img" width={500} height={500} /> */}
         <img src="/top_home.jpg" />
       </div>
     </div>

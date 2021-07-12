@@ -15,7 +15,7 @@ const ProjectShowcase = () => {
         end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
-      scale: 2,
+      scale: 3,
       y: 200,
       opacity: 0,
       stagger: 0.4,

@@ -10,9 +10,9 @@
   object-fit: cover;
   object-position: 80% 50%; */
 }
-.main_courses p {
+/* .main_courses p {
   padding-top: 20px;
-}
+} */
 .about_courses {
   display: grid;
   grid-template-columns: auto auto auto;
