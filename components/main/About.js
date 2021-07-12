@@ -41,8 +41,8 @@ const About = () => {
     });
     gsap.from(second, {
       scrollTrigger: {
-        trigger: first,
-        start: "top bottom",
+        trigger: second,
+        start: "top center",
         // end: "bottom 100%",
         toggleActions: "restart pause reverse pause",
       },
@@ -54,8 +54,8 @@ const About = () => {
     });
     gsap.from(third, {
       scrollTrigger: {
-        trigger: second,
-        start: "top bottom",
+        trigger: third,
+        start: "top center",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
@@ -66,8 +66,8 @@ const About = () => {
     });
     gsap.from(four, {
       scrollTrigger: {
-        trigger: third,
-        start: "top bottom",
+        trigger: four,
+        start: "top center",
         toggleActions: "restart pause reverse pause",
       },
       ease: "power4.out",
@@ -82,11 +82,17 @@ const About = () => {
       <h2 ref={(el) => (textRef = el)}>Sunebelle</h2>
       <div className={classes.animate_intro}>
         <div className={classes.main_intro} ref={(el) => (first = el)}>
-          <h3>
-            I am a self-taught developer. I started learning programming since
-            last Dec. I love Writing
-          </h3>
           <img src="/writing.jpg" />
+          <div>
+            <h3>
+              I am a self-taught developer. I started learning programming since
+              last Dec. I love Writing
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
         </div>
         <div className={classes.main_intro} ref={(el) => (second = el)}>
           <img src="/reading.jpg" />
@@ -101,6 +107,7 @@ const About = () => {
           </div>
         </div>
         <div className={classes.main_intro} ref={(el) => (third = el)}>
+          <img src="/404.png" />
           <div>
             <h3> I love Coding.</h3>
             <p>
@@ -110,7 +117,6 @@ const About = () => {
               nisi ut aliquip ex ea commodo consequat...
             </p>
           </div>
-          <img src="/404.png" />
         </div>
         <div className={classes.main_intro} ref={(el) => (four = el)}>
           <img src="/creating.jpg" />

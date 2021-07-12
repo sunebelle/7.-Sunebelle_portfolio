@@ -64,6 +64,7 @@
   /* display: none; */
   display: block;
   min-height: 80px;
+  max-width: 100%;
 }
 .card:hover .description {
   /* display: block; */
