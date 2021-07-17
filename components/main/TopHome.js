@@ -7,7 +7,7 @@ const TopHome = () => {
       <div className={classes.item1}>
         <h2>
           If you have a dream, work for it.
-          <span className={classes.highlighted}> believe in miracles.</span>
+          <span className={classes.highlighted}> Believe in miracles.</span>
           Because everything is possible.
         </h2>
       </div>

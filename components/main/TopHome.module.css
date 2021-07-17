@@ -2,6 +2,7 @@
   display: grid;
   padding: 0 5%;
   grid-template-columns: auto auto auto;
+  align-items: center;
   grid-gap: 10px;
   min-height: 90vh;
   color: #fff;
@@ -23,7 +24,7 @@
   align-items: center;
 }
 .highlighted {
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: 900;
   text-shadow: -6px -4px 36px rgba(0, 0, 0, 0.7);
   display: block;
@@ -36,7 +37,7 @@
 }
 .item2 > img {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 @keyframes apperance {
@@ -80,20 +81,31 @@
   }
 }
 
-@media screen and (max-width: 1000px), screen and (min-width: 800px) {
+@media screen and (max-width: 1000px) {
   .highlighted {
     font-size: 2.8rem;
     font-weight: 700;
   }
-  .item2 > img {
-    width: 100%;
-    height: 80%;
+}
+@media screen and (max-width: 900px) {
+  .highlighted {
+    font-size: 2.5rem;
+  }
+  .grid_container h2 {
+    font-size: 2rem;
   }
 }
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 850px) {
   .grid_container {
     display: grid;
     grid-template-columns: auto;
+  }
+  .highlighted {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  .grid_container h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -102,9 +114,16 @@
     font-size: 1.5rem;
     font-weight: 600;
   }
+  .grid_container h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .grid_container {
     max-height: 90vh;
+  }
+  .grid_container h2 {
+    margin-bottom: 0;
   }
 }
