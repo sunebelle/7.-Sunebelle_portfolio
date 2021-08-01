@@ -25,11 +25,27 @@ const projectData = [
   },
   {
     id: "4",
-    title: "Mern Memories",
+    title: "Mern Mitbook",
     tags: ["mongoDB", "express", "react", "node", "heroku", "netlify"],
     img: "./mernMemories.gif",
-    link: "#",
-    description: `<Currently working on>.This is a project inspired from JavaScript Mastery. Youtube link: https://www.youtube.com/watch?v=aibtHnbeuio. Changes: replacing Redux with React Hooks. \n P/s: for the purpose of studying, comments are used more often than usual.`,
+    link: "https://mern-mitbook.web.app/",
+    description: `This is a project inspired from JavaScript Mastery. \n Github: https://github.com/sunebelle/mitbook. Changes: replacing Redux with React Hooks. \n P/s: for the purpose of studying, comments are used more often than usual.`,
+  },
+  {
+    id: "5",
+    title: "Covid tracker",
+    tags: ["chartjs", "leaflet", "react", "netlify", "moment"],
+    img: "./covid.gif",
+    link: "https://covid-21-tracker.netlify.app/",
+    description: `This is a project learned from a youtube channel. Some changes on package version has been applied.\n Github: https://github.com/sunebelle/5.-Covid-tracker. \n P/s: for the purpose of studying, comments are used more often than usual.`,
+  },
+  {
+    id: "6",
+    title: "Movies API",
+    tags: ["Javascript", "netlify"],
+    img: "./movieapi.gif",
+    link: "https://movie-api-js.netlify.app/",
+    description: `This is a project for movies searching.\nGithub: https://github.com/sunebelle/Javascript-Challenges. \n P/s: for the purpose of studying, comments are used more often than usual.`,
   },
 ];
 
